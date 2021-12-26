@@ -14,4 +14,5 @@ public interface PaymentService {
 
 
     public Payment getPaymentById(@Param("id") Long id);
+    public Payment getentById(@Param("id") Long id);
 }
